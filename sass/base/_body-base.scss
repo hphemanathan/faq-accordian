@@ -1,7 +1,7 @@
 body {
-  font-family: var(--font-family);
-  font-size: var(--font-s-body);
-  color: var(--blue-dark);
+  background: url(../../background-pattern-mobile.svg) no-repeat,
+    var(--pink-light);
+  background-size: contain;
   display: flex;
   flex-direction: column;
 }
