@@ -1,2 +1,8 @@
 .container {
+  width: min(calc(100% - var(--48px)), 37rem);
+  margin-inline: auto;
+  background-color: var(--white);
+  margin-block-start: var(--128px);
+  box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
+  border-radius: var(--8px);
 }
