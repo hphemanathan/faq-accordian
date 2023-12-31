@@ -5,5 +5,12 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-body-s);
   display: flex;
+  align-items: center;
   flex-direction: column;
+
+  @include tab {
+    background: url(../../background-pattern-desktop.svg) no-repeat,
+      var(--pink-light);
+    background-size: contain;
+  }
 }

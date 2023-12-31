@@ -8,10 +8,10 @@
     align-items: center;
     column-gap: 24px;
     margin-block-end: var(--1_5rem);
+    margin-block-start: var(--24px);
     &--question {
       font-size: var(--font-body);
       font-weight: 600;
-      margin-block-start: var(--24px);
     }
   }
 
