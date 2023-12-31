@@ -1,11 +1,17 @@
 :root {
   //Font Family
-  --font-family: font-family: 'Work Sans', sans-serif;
+  --font-family: "Work Sans", sans-serif;
 
   // //Font size
-  --font-body:font-size: clamp(1rem, 0.9559859154929577rem + 0.18779342723004694vw, 1.125rem);
-  --font-body-s:font-size: clamp(0.875rem, 0.8309859154929577rem + 0.18779342723004694vw, 1rem);
-  --font-s-h1:font-size: clamp(2rem, 1.471830985915493rem + 2.253521126760563vw, 3.5rem);
-
- 
+  --font-body: clamp(
+    1rem,
+    0.9559859154929577rem + 0.18779342723004694vw,
+    1.125rem
+  );
+  --font-body-s: clamp(
+    0.875rem,
+    0.8309859154929577rem + 0.18779342723004694vw,
+    1rem
+  );
+  --font-s-h1: clamp(2rem, 1.471830985915493rem + 2.253521126760563vw, 3.5rem);
 }

@@ -2,6 +2,8 @@ body {
   background: url(../../background-pattern-mobile.svg) no-repeat,
     var(--pink-light);
   background-size: contain;
+  font-family: var(--font-family);
+  font-size: var(--font-body-s);
   display: flex;
   flex-direction: column;
 }
