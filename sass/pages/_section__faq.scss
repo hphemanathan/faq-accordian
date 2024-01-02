@@ -9,9 +9,21 @@
     column-gap: 24px;
     margin-block-end: var(--1_5rem);
     margin-block-start: var(--24px);
+
+    &--icon__show {
+      cursor: pointer;
+    }
+
+    &--icon__hide {
+      cursor: pointer;
+      &.hide {
+        display: none;
+      }
+    }
     &--question {
       font-size: var(--font-body);
       font-weight: 600;
+
       &:hover {
         cursor: pointer;
         color: var(--pink);
@@ -21,5 +33,8 @@
 
   &--ans {
     margin-block-end: var(--20px);
+  }
+  &--ans {
+    display: none;
   }
 }
