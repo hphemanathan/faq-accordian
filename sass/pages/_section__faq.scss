@@ -12,6 +12,10 @@
     &--question {
       font-size: var(--font-body);
       font-weight: 600;
+      &:hover {
+        cursor: pointer;
+        color: var(--pink);
+      }
     }
   }
 
